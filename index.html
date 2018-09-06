@@ -1,0 +1,90 @@
+<!--
+html - cog lab Project 
+Description: html for insta layout 
+Author: Rebecca Chinn
+Author email: rc3003@barnard.edu -->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>fInstagram</title>
+
+ 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- my styles and scripts -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="everything.js"></script>
+
+
+
+</head>
+
+<body>
+
+	<div class="container-fluid" style="background-color: #FAFAFA">
+		<!--nav bar -->
+
+	 	<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top">     
+	            <div class="row stayInside" id="topBar">
+	            	<div class="col-md-1"></div>
+	            	<div class="col-md-2 stayInside ">
+	            		<img src="insta.png" alt="logo" id="instaLogo">
+	            		<div id="bar"></div>
+	            		<img src="instatext.png" alt="logo" id="instaText">
+	            	</div>
+	            	<div class="col-md-6">
+	            		<input type="text" class="form-control" placeholder="Search" id="searchBar">
+	            	</div>
+	            	<div class="col-md-3">
+	            		<img src="compass.png" alt="compass" class="icons">
+	            		<img src="heart.png" alt="heart" class="icons">
+	            		<img src="person.png" alt="person" class="icons">
+	            	</div>
+	            </div>
+	        </nav>
+        </div>
+
+        <!-- SPACER -->
+
+        <div class="row" style="height:90px">
+        </div>
+
+	    <div id="add"></div>
+
+
+        <div class="row">
+        	<div class="col-md-3"></div>
+        	<div class="col-md-4">
+        		<button type="button" class="btn btn-primary btn-lg btn-block butt" onclick="done()">Finish!</button>
+
+        	</div>
+        	<div class="col-md-5"></div>
+
+		</div>
+
+        <div class="row" style="height:45px"></div>
+
+        <div class="row">
+        	<div class="col-md-2"></div>
+        	<div class="col-md-6" id="result">
+        		
+
+        	</div>
+        </div>
+        <div class="row" style="height:90px"></div>
+
+</body>
+</html>
